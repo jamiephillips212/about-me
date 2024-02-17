@@ -17,7 +17,6 @@ function getName() {
 }
 
 let usersName = getName();
-// console.log(usersName);
 
 alert(`Welcome, ${usersName}: Hit OK to begin the quiz!`);
 alert('I am going to ask you several Yes or No questions. Hit OK when you are ready to begin.');
@@ -76,7 +75,7 @@ function Games() {
   }
 }
 
-function Games();
+Games(); // Corrected function call
 
 let myNumber = 29;
 
