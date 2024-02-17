@@ -17,7 +17,6 @@ function getName() {
 }
 
 let usersName = getName();
-// console.log(usersName);
 
 alert(`Welcome, ${usersName}: Hit OK to begin the quiz!`);
 alert('I am going to ask you several Yes or No questions. Hit OK when you are ready to begin.');
@@ -76,7 +75,7 @@ function Games() {
   }
 }
 
-function Games();
+Games(); // Corrected function call from ChatGPT
 
 let myNumber = 29;
 
@@ -104,6 +103,3 @@ function findNumber() {
 findNumber();
 
 alert(`Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 5 correct!`);
-//console.log(replyNumber);
-
-alert('Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 5 correct!');
