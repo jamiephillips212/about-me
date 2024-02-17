@@ -32,3 +32,4 @@ Myself.
 MIT
 
 # Lighthouse
+https://github.com/jamiephillips212/about-me/blob/main/img/lighthouse.jpg.png?raw=true
