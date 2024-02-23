@@ -63,9 +63,9 @@ function getTown() {
 
 getTown();
 
-function Games() {
-  const games = prompt('Do I like games?');
-  let lowercaseGames = games.toLowerCase();
+function games() {
+  const gamesResponse = prompt('Do I like games?');
+  let lowercaseGames = gamesResponse.toLowerCase();
 
   if (lowercaseGames === 'no') {
     alert('Incorrect. I love games!');
@@ -75,11 +75,11 @@ function Games() {
   }
 }
 
-Games();
+games();
 
 function artist() {
-  const artist = prompt('Is keshi my favorite artist?');
-  let lowercaseArtist = artist.toLowerCase();
+  const artistResponse = prompt('Is keshi my favorite artist?');
+  let lowercaseArtist = artistResponse.toLowerCase();
 
   if (lowercaseArtist === 'no') {
     alert('Wrong. Please try again.');
@@ -94,11 +94,15 @@ artist();
 let myNumber = 29;
 
 function findNumber() {
-  for (let attempts = 4; attempts > 0; attempts--) {
+  const maxAttempts = 6;
+
+  for (let attempts = maxAttempts; attempts > 0; attempts--) {
     let faveNumber = prompt('What is my favorite number? 1-100');
     let replyNumber = parseInt(faveNumber);
 
-    if (replyNumber > myNumber) {
+    if (isNaN(replyNumber)) {
+      alert('Please enter a valid number.');
+    } else if (replyNumber > myNumber) {
       alert('Way too high! Try again!');
     } else if (replyNumber < myNumber) {
       alert('Way too low! Try again!');
@@ -116,18 +120,4 @@ function findNumber() {
 
 findNumber();
 
-function trip() {
-  const trip = prompt('Do I want to visit Japan?');
-  let lowercasetrip = trip.toLowerCase();
-
-  if (lowercasetrip === 'no') {
-    alert('Wrong! I would love to visit!');
-  } else if (lowercasetrip === 'yes') {
-    alert('You are right!');
-    correctCount += 1;
-  }
-}
-
-trip();
-
-alert(`Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 8 correct!`);
+alert(`Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 7 correct!`);
