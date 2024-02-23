@@ -89,7 +89,7 @@ function findNumber() {
     } else if (replyNumber < myNumber) {
       alert('Way too low! Try again!');
     } else if (replyNumber === myNumber) {
-      alert('Ding Ding Ding! You are correct! 29 is my favorite number! Congrats!');
+      alert('Ding Ding Ding! You are correct! 29 is my favorite number. Congrats!');
       correctCount += 1;
       break;
     }
@@ -102,4 +102,18 @@ function findNumber() {
 
 findNumber();
 
-alert(`Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 5 correct!`);
+function trip() {
+  const trip = prompt('Do I want to visit Japan?');
+  let lowercasetrip = trip.toLowerCase();
+
+  if (lowercasetrip === 'no') {
+    alert('Wrong! I would love to visit!');
+  } else if (lowercasetrip === 'yes') {
+    alert('You are right!');
+    correctCount += 1;
+  }
+}
+
+trip(); // Corrected function call
+
+alert(`Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 7 correct!`);
