@@ -1,35 +1,7 @@
-# General Idea
+# About Me
+Meet Jamie! This project will let the user get to know me!
 
-This is the Lab 02 project. It will ask you several questions.
+# Author: Jamie Phillips
 
-# Code Example
-
-No Example given as no code is exposed.
-
-# Motivation
-
-I want to get my certifications!
-
-# Installation
-
-Grab the project:
-`git clone https://github.com/jamiephillips212/about-me.git`
-
-# API Reference
-
-No API.
-
-# Tests
-
-None.
-
-# Contributors
-
-Myself.
-
-# License
-
-MIT
-
-# Lighthouse
+# Lighthouse Score
 ![lighthouse](https://github.com/jamiephillips212/about-me/blob/main/lighthouse.png?raw=true)
