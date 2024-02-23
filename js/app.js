@@ -40,9 +40,9 @@ function colorAnswer() {
   let lowercaseColor = faveColor.toLowerCase();
 
   if (lowercaseColor === 'no') {
-    alert("Unfortunately, you guessed wrong! Red is my favorite color!");
+    alert('Unfortunately, you guessed wrong! Red is my favorite color!');
   } else if (lowercaseColor === 'yes') {
-    alert("Correct! Good job!");
+    alert('Correct! Good job!');
     correctCount += 1;
   }
 }
@@ -54,9 +54,9 @@ function getTown() {
   let lowercaseTown = homeTown.toLowerCase();
 
   if (lowercaseTown === 'no') {
-    alert("Incorrect! Try again.");
+    alert('Incorrect! Try again.');
   } else if (lowercaseTown === 'yes') {
-    alert("Wow! You got it right!");
+    alert('Wow! You got it right!');
     correctCount += 1;
   }
 }
@@ -75,7 +75,21 @@ function Games() {
   }
 }
 
-Games(); // Corrected function call
+Games();
+
+function artist() {
+  const artist = prompt('Is keshi my favorite artist?');
+  let lowercaseArtist = artist.toLowerCase();
+
+  if (lowercaseArtist === 'no') {
+    alert('Wrong. Please try again.');
+  } else if (lowercaseArtist === 'yes') {
+    alert('Wonderful! That is correct!');
+    correctCount += 1;
+  }
+}
+
+artist();
 
 let myNumber = 29;
 
@@ -114,6 +128,6 @@ function trip() {
   }
 }
 
-trip(); // Corrected function call
+trip();
 
-alert(`Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 7 correct!`);
+alert(`Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 8 correct!`);
