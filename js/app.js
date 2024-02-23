@@ -117,6 +117,17 @@ function findNumber() {
     }
   }
 }
+function trip() {
+  const tripResponse = prompt('Would I like to visit Japan in the future?');
+  let lowercasetrip = tripResponse.toLowerCase();
+
+  if (lowercasetrip === 'no') {
+    alert('Not correct. I would love to visit.');
+  } else if (lowercasetrip === 'yes') {
+    alert('Nice job. You are correct!');
+    correctCount += 1;
+  }
+}
 
 findNumber();
 
