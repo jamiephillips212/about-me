@@ -128,17 +128,6 @@ function trip() {
     correctCount += 1;
   }
 }
-function game() {
-  const gameResponse = prompt('Is Animal Crossing my favorite Nintendo Franchise?');
-  const lowercaseGameResponse = gameResponse.toLowerCase();
-
-  if (lowercaseGameResponse === 'no') {
-    alert('Wrong. Animal Crossing is my favorite franchise!');
-  } else if (lowercaseGameResponse === 'yes') {
-    alert('Correct! I love the Animal Crossing franchise!');
-    correctCount += 1;
-  }
-}
 
 findNumber();
 
