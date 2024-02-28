@@ -129,8 +129,8 @@ function trip() {
   }
 }
 function favoritegame() {
-  const favoritegameresponse = prompt('Is Animal Crossing my favorite Nintendo Franchise?');
-  let lowercasefavoritegameresponse = favoritegameresponse.toLowerCase();
+  const favoritegameResponse = prompt('Is Animal Crossing my favorite Nintendo Franchise?');
+  let lowercasefavoritegameresponse = favoritegameResponse.toLowerCase();
 
   if (lowercasefavoritegameresponse === 'no') {
     alert('Wrong. Animal Crossing is my favorite franchise!');
