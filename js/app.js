@@ -128,13 +128,13 @@ function trip() {
     correctCount += 1;
   }
 }
-function favoritegame() {
-  const favoritegameResponse = prompt('Is Animal Crossing my favorite Nintendo Franchise?');
-  let lowercasefavoritegameresponse = favoritegameResponse.toLowerCase();
+function game() {
+  const gameResponse = prompt('Is Animal Crossing my favorite Nintendo Franchise?');
+  const lowercaseGameResponse = gameResponse.toLowerCase();
 
-  if (lowercasefavoritegameresponse === 'no') {
+  if (lowercaseGameResponse === 'no') {
     alert('Wrong. Animal Crossing is my favorite franchise!');
-  } else if (lowercasefavoritegameresponse === 'yes') {
+  } else if (lowercaseGameResponse === 'yes') {
     alert('Correct! I love the Animal Crossing franchise!');
     correctCount += 1;
   }
