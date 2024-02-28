@@ -131,4 +131,4 @@ function trip() {
 
 findNumber();
 
-alert(`Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 7 correct!`);
+alert(`Thanks for participating in this quiz, ${usersName}! You got ${correctCount} out of 6 correct!`);
