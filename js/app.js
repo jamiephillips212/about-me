@@ -52,7 +52,7 @@ const bioQuestions = [
 ];
 
 function askQuestions(questions) {
-  for (const q of questions)
+  for (const q of questions) {
   let answer;
 switch (q.questionType) {
   case 'YN':
@@ -100,7 +100,6 @@ switch (q.questionType) {
             answer = promptuser(q.question);
             if (answer === null)}
             
-
           answer = answer.toLowerCase();
           for (const correctAnswer of q.question)
             if (answer === correctAnswer.toLowerCase()){
@@ -125,7 +124,7 @@ switch (q.questionType) {
               
               function kickOff() {
                 let userName = getUserName();
-                messageUser('Hello,' + userName + ' welcome to my site!');
+                messageUser('Hello,' + userName + ' Welcome to the site.');
               
                 if (userName !== 'cc'){
                   askGenericQuestions(bioQuestions);
@@ -139,7 +138,7 @@ switch (q.questionType) {
               }
               
               function getUserName() {
-                let userName = prompt('What is your name?');
+                let userName = prompt('your name?');
                 return userName;
               }
               
