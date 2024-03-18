@@ -129,3 +129,9 @@ function getUserName() {
 }
 
 kickOff();
+
+function endMessage(){
+  alert("Thank you for playing Jamie´s game! This message was created using a js function");
+}
+
+endMessage();
