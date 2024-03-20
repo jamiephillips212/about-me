@@ -39,7 +39,7 @@ const bioQuestions = [
     questionType: 'YN'
   },
   {
-    question: 'I am thinking of a number between 1-10, try and guess.',
+    question: 'I am thinking of a number between 1-20, try and guess.',
     answer: Math.floor(Math.random() * 10 - 1 +1) + 1,
     questionType: 'INT',
     allowedAttempts: 4
