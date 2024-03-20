@@ -81,7 +81,7 @@ function askQuestions(questions) {
           alert('Sorry. You did not get it. The number was ' + q.answer);
           break;
         } else {
-          if (isNaN(answer) || answer < 1 || answer > 10) {
+          if (isNaN(answer) || answer < 1 || answer > 11 {
             alert('Use a number between 1-10');
           } else if (answer < q.answer) {
             alert('The number is greater than ' + answer + '.');
