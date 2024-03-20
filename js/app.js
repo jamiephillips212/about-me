@@ -82,7 +82,7 @@ function askQuestions(questions) {
           break;
         } else {
           if (isNaN(answer) || answer < 1 || answer > 11 {
-            alert('Use a number between 1-10');
+            alert('Use a number between 1-20');
           } else if (answer < q.answer) {
             alert('The number is greater than ' + answer + '.');
           }
