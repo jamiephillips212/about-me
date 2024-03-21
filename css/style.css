@@ -11,7 +11,7 @@ h1 {
   font-weight: bold;
   margin-top: 1em;
   margin-bottom: 0.5em;
-  color: #333; /* Adjusted for better contrast */
+  color: #333;
 }
 
 h2 {
@@ -33,5 +33,5 @@ p {
   line-height: 1.5;
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #555; /* Adjusted for better contrast */
+  color: #555;
 }
