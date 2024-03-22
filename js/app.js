@@ -81,10 +81,11 @@ function askQuestions(questions) {
           alert('Sorry. You did not get it. The number was ' + q.answer);
           break;
         } else {
-          if (isNaN(answer) || answer < 1 || answer > 11 {
+          if (isNaN(answer) || answer < 1 || answer > 20) {
             alert('Use a number between 1-20');
           } else if (answer < q.answer) {
             alert('The number is greater than ' + answer + '.');
+            alert('The number is less than ' + answer + '.');
           }
         }
         tracker++;
@@ -129,9 +130,3 @@ function getUserName() {
 }
 
 kickOff();
-
-function endMessage(){
-  alert("Thank you for playing Jamie´s game! This message was created using a js function");
-}
-
-endMessage();
